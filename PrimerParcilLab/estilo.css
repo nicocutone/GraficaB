@@ -1,0 +1,169 @@
+/* Reset de estilos y estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  /* Estilos específicos de la página */
+  
+  header {
+    background-color: #f3e1d7;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 28px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3s, 1fr);
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+    
+  }
+  
+  nav ul li a {
+
+    font-size: 16px;
+    font-weight: bold;
+    display: grid;
+    
+  }
+  
+  section#banner {
+    background-color: #fce9e6;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  section#banner h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  section#banner p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffd3c9;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  section#servicios {
+    background-color: #f9f3ea;
+    padding: 80px 0;
+  }
+  
+  section#servicios h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+  
+  .servicio {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .servicio img {
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  section#portfolio {
+    background-color: #f4eee4;
+    padding: 80px 0;
+  }
+  
+  section#portfolio h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+  
+  .proyecto {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .proyecto img {
+    max-width: 600px;
+  }
+  
+  section#contacto {
+    background-color: #f9f3ea;
+    padding: 80px 0;
+  }
+  
+  section#contacto h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+  }
+  
+  form textarea {
+    height: 120px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #ffd3c9;
+    color: #333;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #f3e1d7;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+  }
+  

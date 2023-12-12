@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Información de la Empresa</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  overflow-x: hidden;
+  
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+section {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  transition: all 0.7s ease;
+}
+
+section:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  font-size: 18px;
+  color: #8ab4ec;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+#ft1{
+  width: 100%;
+  height: 300px;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #036;
+}
+nav img {
+    max-width: 200px; /* Cambia el tamaño del logo ajustando el valor */
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+/* Estilo para los enlaces del menú */
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px; /* Ajusta el tamaño de la fuente */
+    border-bottom: none; /* Elimina la barra inferior */
+    padding-bottom: 5px; /* Añade espacio entre el enlace y el texto */
+}
+
+/* Estilo para el enlace activo */
+nav ul li a.active {
+    font-weight: bold; /* Cambia el estilo del enlace activo, si lo deseas */
+}
+
+footer {
+  background-color: #036;
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex-basis: 30%;
+}
+
+.footer-column h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #ccc;
+}
+
+.footer-column p,
+.footer-column ul {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.footer-column ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+  color: #8ab4ec;
+  text-decoration: none;
+}
+
+.social-media li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-media li a {
+  color: #8ab4ec;
+  font-size: 20px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #8ab4ec;
+}
+
+    
+</style>
+<body>
+  <nav>
+    <div>
+        <img src="img/logo23.png" alt="GraficaB">
+    </div>
+    <div>
+        <ul>
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Productos</a></li>
+            <li><a href="">Contactanos</a></li>
+        </ul>
+    </div>
+
+  </nav>
+  
+  <main>
+    <section>
+        <center><h2><br>Clasificacion de nuestra empresa:</h2></center>
+    </section>
+    <section>
+      <h2>Tamaño:</h2>
+      <p>Micro empresas: Nuestra empresa se define como micro debido a que está compuesta por 5 trabajadores.</p>
+    </section>
+    <section>
+      <h2>Propiedad del capital:</h2>
+      <p>Empresa privada: Se denomina privada ya que el capital es de manos privadas.</p>
+    </section>
+    <section>
+      <h2>Costo de la producción:</h2>
+      <p>Material intensivo: Ya que el material es lo más costoso a la hora de costear los gastos de la misma.</p>
+    </section>
+    <section>
+      <h2>Ámbito geográfico de desarrollo de la actividad:</h2>
+      <p>Empresa local: Está ubicada en el ámbito geográfico inferior al nacional.</p>
+    </section>
+    <section>
+      <h2>Sector económico:</h2>
+      <p>Sector terciario: La actividad de esta empresa se centra en la prestación de servicios.</p>
+    </section>
+    <section>
+      <h2>Número de productos o servicios:</h2>
+      <p>Multiproductoras: Nuestra empresa produce más de un servicio.</p>
+    </section>
+    <section>
+      <h2>Nivel de delegación de la toma de decisiones:</h2>
+      <p>Empresa centralizada.</p>
+    </section>
+    <img id="ft1" src="assets/imagenes/Organigramafinal.png" alt="">
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3>Información de contacto</h3>
+          <p>Dirección: San lorenzo 356, San miguel de tucumán</p>
+          <p>Teléfono: 381-529-1310</p>
+          <p>Email: info@GraficaB.com</p>
+        </div>
+        <div class="footer-column">
+          <h3>Enlaces útiles</h3>
+          <ul>
+            <li><a href="laboratorio/index.html">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Síguenos en redes sociales</h3>
+          <ul class="social-media">
+            <li><a href="">GraficaB<i class="fab fa-facebook-f"></i></a></li> <br>
+            <li><a href="#">GraficaB<i class="fab fa-twitter"></i></a></li><br>
+            <li><a href="#">GraficaB<i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 Imprenta PYME. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+  
+</body>
+</html>
